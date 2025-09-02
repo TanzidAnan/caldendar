@@ -1,7 +1,8 @@
 /**
  * 8.ways to get undefine
  * 1.variable that is not initialized will give undefined
- * 2.function with 
+ * 2.function with is not passed will be undefined
+ * 3. if return has nothing on the right side will return undefined
  * */ 
 
 function noNagative(a,b){
@@ -12,4 +13,8 @@ function noNagative(a,b){
 }
 
 const total=noNagative(-4,-2);
-console.log(total)
+// console.log(total)
+
+
+const fifth ={id:1, name:'ponchom',age:30};
+console.log(fifth.ages)
