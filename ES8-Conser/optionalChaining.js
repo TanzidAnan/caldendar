@@ -13,4 +13,5 @@ const petOwner={
     }
 }
 
-console.log(petOwner.contact.email)
+// console.log(petOwner.contact.email)
+console.log(petOwner?.address?.house)
