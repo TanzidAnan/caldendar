@@ -30,6 +30,11 @@ const myInfo1={
     }
 }
 
-const x ='sosurName';
-console.log(myInfo1['sosurName'])
-console.log(myInfo1[x])
+for(let key in myInfo1){
+    console.log(myInfo1[key])
+}
+
+
+// const x ='sosurName';
+// console.log(myInfo1['sosurName'])
+// console.log(myInfo1[x])
