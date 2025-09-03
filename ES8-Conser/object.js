@@ -10,7 +10,7 @@ const myInfo={
     }
 }
 
-const obj2 =myInfo;
+const obj2 ={...myInfo};
 obj2.married =false;
 console.log(myInfo)
 console.log(obj2)
