@@ -1,6 +1,9 @@
 const numbers =[20,25,45,74,85,69,74,25,41];
 
+const arr =[]
 
+console.log(typeof numbers)
+console.log(typeof arr)
 
 
 
