@@ -20,5 +20,10 @@ const myInfo1={
     }
 }
 
-const sentence1 =`amar name ${name} amar subjects gulo ${myInfo1.subject.map((sub) =>sub)}`;
+const sentence1 =`amar name ${name} amar subjects gulo ${myInfo1.subject.map((sub) =>sub).join('|')}`;
+
+const user =`anar naem ${myInfo1.name} amar phone number ${myInfo1.contact.phone}`;
+console.log(user)
+
+
 console.log(sentence1)
