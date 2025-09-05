@@ -6,7 +6,10 @@ const arr =[20,32,52,63,45,21];
 let sum =0;
 
 arr.forEach((item,index,a) =>{
-   console.log(item,index,a)
+   // console.log(item,index,a)
+   console.log(item)
+   console.log(index)
+   console.log(a)
 })
 
 // console.log('Total Number: ',sum,index)
