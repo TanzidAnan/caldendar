@@ -15,8 +15,8 @@ obj2.married =false;
 
 const obj3 ={...myInfo};
 obj3.personalPhone ='01924653174';
-console.log(obj3);
-console.log(myInfo)
+// console.log(obj3);
+// console.log(myInfo)
 
 
 
@@ -43,6 +43,12 @@ const myInfo1={
 
 for(let key in myInfo1){
     // console.log(myInfo1[key])
+}
+
+
+for(let keys in myInfo1){
+    console.log(myInfo1[keys]);
+    console.log(keys)
 }
 
 
